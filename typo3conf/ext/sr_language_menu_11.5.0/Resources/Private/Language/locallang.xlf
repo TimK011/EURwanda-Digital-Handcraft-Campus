@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-06-04T15:57:02Z" product-name="sr_language_menu">
+		<header/>
+		<body>
+			<trans-unit id="select_language" xml:space="preserve">
+				<source>Choose a language</source>
+			</trans-unit>
+			<trans-unit id="form_fieldset_legend" xml:space="preserve">
+				<source>Choose a language</source>
+			</trans-unit>
+			<trans-unit id="form_select_label" xml:space="preserve">
+				<source>Choose a language</source>
+			</trans-unit>
+			<trans-unit id="form_submit" xml:space="preserve">
+				<source>Go</source>
+			</trans-unit>
+			<trans-unit id="translationNotAvailable" xml:space="preserve">
+				<source>This page is not available in %1$s</source>
+			</trans-unit>
+			<trans-unit id="pi1_title" xml:space="preserve">
+				<source>Language Selection</source>
+			</trans-unit>
+			<trans-unit id="pi1_plus_wiz_description" xml:space="preserve">
+				<source>Adds a selection list of languages.</source>
+			</trans-unit>
+			<trans-unit id="settings.title" xml:space="preserve">
+				<source>Menu settings</source>
+			</trans-unit>
+			<trans-unit id="settings.languages" xml:space="preserve">
+				<source>Languages to select from:</source>
+			</trans-unit>
+			<trans-unit id="settings.positionOfDefaultLanguage" xml:space="preserve">
+				<source>Position of default language (starting at 0):</source>
+			</trans-unit>
+			<trans-unit id="settings.layout.I.0" xml:space="preserve">
+				<source>Flags</source>
+			</trans-unit>
+			<trans-unit id="settings.layout.I.1" xml:space="preserve">
+				<source>Dropdown list</source>
+			</trans-unit>
+			<trans-unit id="settings.layout.I.2" xml:space="preserve">
+				<source>Links</source>
+			</trans-unit>
+			<trans-unit id="settings.layout" xml:space="preserve">
+				<source>Menu layout</source>
+			</trans-unit>
+			<trans-unit id="settings.layout.constants" xml:space="preserve">
+				<source>Menu layout: Default layout to be used, if no layout is otherwise provided to the plugin</source>
+			</trans-unit>
+			<trans-unit id="view.template" xml:space="preserve">
+				<source>Template</source>
+			</trans-unit>
+			<trans-unit id="view.templateRootPath" xml:space="preserve">
+				<source>Path to template root</source>
+			</trans-unit>
+			<trans-unit id="view.layoutRootPath" xml:space="preserve">
+				<source>Path to template layouts</source>
+			</trans-unit>
+			<trans-unit id="view.partialRootPath" xml:space="preserve">
+				<source>Path to template partials</source>
+			</trans-unit>
+			<trans-unit id="CType" xml:space="preserve">
+				<source>Language Selection</source>
+			</trans-unit>
+			<trans-unit id="settings.languageTitle" xml:space="preserve">
+				<source>Language title to use</source>
+			</trans-unit>
+			<trans-unit id="settings.languageTitle.constants" xml:space="preserve">
+				<source>Language title to use: The labels to use for the languages in the menu</source>
+			</trans-unit>
+			<trans-unit id="settings.languageTitle.I.0" xml:space="preserve">
+				<source>Translated language name from Static Info Tables</source>
+			</trans-unit>
+			<trans-unit id="settings.languageTitle.I.1" xml:space="preserve">
+				<source>Language name in the language itself from Static Info Tables</source>
+			</trans-unit>
+			<trans-unit id="settings.languageTitle.I.2" xml:space="preserve">
+				<source>Language name from web site languages table</source>
+			</trans-unit>
+			<trans-unit id="settings.languageTitle.I.3" xml:space="preserve">
+				<source>Language and country ISO codes</source>
+			</trans-unit>
+			<trans-unit id="update.upgradeTo6" xml:space="preserve">
+				<source>Upgrade to version 6.0</source>
+			</trans-unit>
+			<trans-unit id="update.warning" xml:space="preserve">
+				<source>Warning!</source>
+			</trans-unit>
+			<trans-unit id="update.changesToDatabase" xml:space="preserve">
+				<source>This script will make changes to the database that will not work with versions of the extension lower than 6.0.</source>
+			</trans-unit>
+			<trans-unit id="update.update" xml:space="preserve">
+				<source>Update</source>
+			</trans-unit>
+			<trans-unit id="update.elementsUpdated" xml:space="preserve">
+				<source>%1$d language menu elements were updated.</source>
+			</trans-unit>
+			<trans-unit id="update.templatesUpdated" xml:space="preserve">
+				<source>%1$d TypoScript templates were updated. Please verify the plugin configuration. You may need to move array _LOCAL_LANG from plugin.tx_srlanguagemenu.settings to plugin.tx_srlanguagemenu.</source>
+			</trans-unit>
+			<trans-unit id="update.pleaseRead" xml:space="preserve">
+				<source>Please read the manual for more information regarding the upgrade to version 6.0 of this extension.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

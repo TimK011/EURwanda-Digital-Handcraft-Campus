@@ -1,0 +1,14 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<label for="timestmap">
+	<f:translate key="tx_cmmemo_domain_model_memo.timestmap" />
+</label><br />
+	<f:form.textfield property="timestmap" id="timestmap" value="{memo.timestmap->f:format.date()}" /><br />
+<label for="title">
+	<f:translate key="tx_cmmemo_domain_model_memo.title" />
+</label><br />
+	<f:form.textfield property="title" id="title" /><br />
+<label for="text">
+	<f:translate key="tx_cmmemo_domain_model_memo.text" />
+</label><br />
+	<f:form.textarea property="text" id="text" cols="40" rows="15" /><br />
+</html>

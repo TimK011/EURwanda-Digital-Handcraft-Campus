@@ -1,0 +1,26 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+	<div class="card mb-3">
+	<div class="card-header">
+		<b>{questions.question}</b>
+	</div>
+	<u1 class="list-group list-group-flush">
+	<f:for each="{questions.questionanswer}" as="answers">
+		<label class ="list-group-item">
+			<f:if condition="{answers.correct}">
+				<f:then>
+					<input class="form-check-input ne-1" question-correct="1" type="checkbox" value="">
+					{answers.answer}
+				</f:then>
+
+				<f:else>
+					<input class="form-check-input ne-1" question-correct="0" type="checkbox" value="">
+					{answers.answer}
+				</f:else>
+			</f:if>
+		</label>
+	</f:for>
+
+	</u1>
+</div>
+</html>

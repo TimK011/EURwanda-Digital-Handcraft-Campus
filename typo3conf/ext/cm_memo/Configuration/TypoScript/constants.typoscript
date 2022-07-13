@@ -1,0 +1,29 @@
+plugin.tx_cmmemo_frontend {
+    view {
+        # cat=plugin.tx_cmmemo_frontend/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:cm_memo/Resources/Private/Templates/
+        # cat=plugin.tx_cmmemo_frontend/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:cm_memo/Resources/Private/Partials/
+        # cat=plugin.tx_cmmemo_frontend/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:cm_memo/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_cmmemo_frontend//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
+
+module.tx_cmmemo_backend {
+    view {
+        # cat=module.tx_cmmemo_backend/file; type=string; label=Path to template root (BE)
+        templateRootPath = EXT:cm_memo/Resources/Private/Backend/Templates/
+        # cat=module.tx_cmmemo_backend/file; type=string; label=Path to template partials (BE)
+        partialRootPath = EXT:cm_memo/Resources/Private/Backend/Partials/
+        # cat=module.tx_cmmemo_backend/file; type=string; label=Path to template layouts (BE)
+        layoutRootPath = EXT:cm_memo/Resources/Private/Backend/Layouts/
+    }
+    persistence {
+        # cat=module.tx_cmmemo_backend//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

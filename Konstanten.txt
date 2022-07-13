@@ -1,0 +1,24 @@
+tree.level === 0]
+page.theme.navigation.style = default
+[end]
+
+page.theme.navigation.type = top
+page.theme.meta.enable = 0
+page.logo.file = fileadmin/introduction/images/logo.png
+page.logo.fileInverted = fileadmin/introduction/images/logo.png
+plugin.bootstrap_package.settings.scss.primary = #009ca4 
+plugin.bootstrap_package.settings.scss.secondary = #713337
+//plugin.bootstrap_package.settings.scss.breadcrumb-bg = #009ca4
+plugin.bootstrap_package.settings.scss.cookieconsent-bg = #F2F2F2
+plugin.bootstrap_package.settings.scss.footer-sections = (content:(background: #009ca4 , color: #ffffff, link-color: #311b92), meta:(background: #ffffff, color: $body-color, link-color: #0288D1))
+//page.theme.socialmedia.channels.facebook.url = https://www.facebook.com/typo3/
+//page.theme.socialmedia.channels.twitter.url = https://twitter.com/typo3
+//page.theme.socialmedia.channels.github.url = https://github.com/TYPO3/TYPO3.CMS
+//page.theme.socialmedia.channels.youtube.url = https://www.youtube.com/user/typo3
+page.theme.cookieconsent.position = bottom-right
+page.preloader.backgroundColor = #03A9F4
+page.preloader.logo.file = fileadmin/introduction/images/logo.png
+
+plugin.tx_cmmultiplechoice_questionsfrontend.persistence.storagePid = 177
+page.theme.copyright.text = 
+page.theme.language.enable = 1

@@ -1,0 +1,39 @@
+{
+  "name": "sjbr/sr-language-menu",
+  "description": "A TYPO3 plugin to display a list of languages to select from. Clicking on a language links to the corresponding version of the page.",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+	"TYPO3",
+  	"language",
+  	"menu"
+  ],
+  "authors": [
+    {
+      "name": "Stanislas Rolland",
+      "homepage": "https://www.sjbr.ca",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://codeberg.org/sjbr/sr-language-menu",
+  "support": {
+	"issues": "https://codeberg.org/sjbr/sr-language-menu/issues"
+  },
+  "replace": {
+	"typo3-ter/sr-language-menu": "self.version"
+  },
+  "require": {
+  	"typo3/cms-core": "^11.5",
+  	"sjbr/static-info-tables": "^11.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "SJBR\\SrLanguageMenu\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "sr_language_menu"
+    }
+  }
+}
